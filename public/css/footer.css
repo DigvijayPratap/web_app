@@ -1,0 +1,13 @@
+.footer{
+    
+    background-color: gray;
+    line-height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: auto;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}

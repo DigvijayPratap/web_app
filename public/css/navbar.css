@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+.webName{
+    display: inline;
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 1px solid rgb(224, 208, 183);
+    color: rgb(100, 117, 117);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 3px;
+}
+.webName:hover{
+    cursor: pointer;
+    background-color: rgb(223, 216, 207);
+    color: black;
+}
+ul{
+    
+    display: inline;
+    word-spacing:10 px;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.active{
+    border-radius: 5px;
+    border: 1px solid ghostwhite;
+    background-color: rgb(31, 31, 180);
+}
+nav{
+    background-color: rgb(19, 19, 114);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+a{
+    color: aliceblue;
+     padding: 10px;
+     text-decoration: none;
+}
+a:hover{
+    background-color: rgb(67, 59, 141);
+    border-radius: 5px;
+    color: rgb(248, 242, 242)
+}
+.search{
+    float: right;
+    display: inline;
+    line-height: 100px;
+}
+#searchInput{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: large;
+    outline: none;
+    margin-right: 30px;
+    
+}
+#search{
+    line-height: 40px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+    background-color: rgb(123, 126, 123);
+    box-shadow: 5px 5px 5px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: large;
+}
+#search:hover{
+    cursor:pointer;
+    background-color: rgb(69, 70, 69);
+    box-shadow: none;
+}
+
+
+@media (max-width:1200px){
+    .pages li{
+       display: flex;
+       flex-direction: column;
+        width: 200px;  
+
+    }
+    .webName{
+        margin-left:80px ;
+     }
+}
+@media (max-width:800px){
+        .webName{
+            margin-left:80px ;
+         }
+         
+}
+@media (max-width:720px){
+   
+    .webName{
+       margin-left:80px ;
+    }
+    
+    #searchInput{
+        margin-right: 0px;
+            width:100%;    
+    }
+    .search{
+        width: 180px;
+        margin-right: 30px;
+    }
+    
+}
+@media (max-width:600px){
+   
+   
+    #searchInput{
+        margin-right: 0px;
+            width:90%;    
+    }
+    .search{
+        width: 150px;
+        margin-right: 30px;
+    }
+}
+@media (max-width:300px){
+    #searchInput{
+       display: flex;
+       flex-direction: column;
+    }
+}

@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+body{
+    margin-top: 110px;
+}
+#posts{
+    background-color: rgb(173, 169, 162);
+    border: 1px solid yellow;
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.postName{
+ background-color: rgb(173, 169, 162);
+ line-height: 40px;
+ font-weight: bolder;
+ padding-left:10px ;
+}
+.paragraph{
+    background-color: rgb(245, 242, 238);
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+   
+}
+#postControls{
+    width: 100%; 
+    line-height: 50px;
+    background-color: rgb(245, 233, 214);
+}
+
+#edit{
+    background-color: gray;
+    line-height: 20px;
+    font-size: large;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    box-shadow: 5px 5px 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#delete{
+    background-color: red;
+    line-height: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    box-shadow: 5px 5px 5px;
+    padding: 5px;
+}
+#edit:hover{
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(75, 72, 72);
+}
+#delete:hover{
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+   background-color: rgb(131, 15, 15);
+}
+
+
+@media (max-width:800px){
+   
+        #posts{
+            width:80%;   
+        }
+        
+}
+
+
+@media (max-width:600px){
+   
+    #posts{
+        width:90%;
+    }
+   
+}
+
+
+
+

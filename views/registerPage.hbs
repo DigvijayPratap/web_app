@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="css/registerPage.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    
+</head>
+<body> 
+             {{>navbar}}
+
+    <div class="container" >
+        <div class="main">
+             <header>
+                 <h1>Registration Form</h1>
+                 <p>Please fill all valid details..</p>
+             </header>
+            <div class="mainform">
+                 Your Name*: <br>
+                 <input type="text" placeholder="Full Name"><br>
+                 <!--   Gender    -->
+                 <fieldset> 
+                    <legend> Gender*</legend>
+                    <input type="radio" name="gender" value="male">Male <br>
+                    <input type="radio" name="gender" value="female">Female<br>
+                    <input type="radio" name="gender" value="other">other<br>
+                 </fieldset>
+                 Your Email*: <br>
+                 <input type="email" placeholder="abc@example.com"> <br>
+                 Mobile No.*: <br>
+                 <input type="number" placeholder="Mobile number"><br>
+                 DOB*: <br>
+                 <input type="date" placeholder=" Mail Id"> <br>
+                 Occupation: <br>
+                 <input type="text"  placeholder="Example:- Student"> <br>
+                
+               <input type="submit" name="Submit" value="Submit">
+              
+           </div>
+       </div>
+ </div>
+    
+</body>
+</html>

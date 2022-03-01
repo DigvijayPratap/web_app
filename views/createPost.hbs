@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="css/createPost.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/navbar.css">
+     
+</head>
+<body>
+
+ {{>navbar}}
+
+    <div class="container">
+       
+        <div class="main">
+            <div class="header">
+                <h1>Create Your Post</h1>   
+            </div>
+            <div id="addPost">
+                <input type="text" placeholder="Post Name" id="postName">
+                <textarea name="text"  rows="20" id="paragraph" placeholder="Content here..."></textarea>
+                <Button id="savePost">SAVE</Button>
+            </div>
+        </div> 
+    </div>
+
+    {{>footer}} <!--footer -->
+    
+     <script src="script/index.js"></script>
+    <script src="script/createPost.js"></script>
+    <!--
+    <script src="script/createPost_IndexPage.js"></script> -->
+</body>
+</html>
